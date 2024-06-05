@@ -37,6 +37,19 @@ body {
     color: white;
 }
 
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__icon {
+    cursor: pointer;
+}
+
+.nav__icon img {
+    max-width: 30px;
+}
+
 .text__container {
     text-align: center;
     margin: 20px 0;
