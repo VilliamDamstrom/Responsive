@@ -85,7 +85,7 @@ body {
     }
 
     .image__container img {
-        max-width: 90%;
+        max-width: 100%;
     }
 }
 
@@ -109,5 +109,15 @@ body {
 }
 
 @media (max-width: 480px) {
-    
+       .text__container h1 {
+        font-size: 1.5rem;
+       }
+
+       .text__container p {
+        font-size: 0.75rem;
+       }
+
+       .image__container img {
+        max-width: 100%;
+       }
 }
