@@ -18,11 +18,25 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
-    
 
 }
 
+.logo__header img {
+    max-width: 100px;
+}
 
+.nav__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav__link {
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
 
 .text__container {
     display: flex;
