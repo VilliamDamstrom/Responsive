@@ -119,18 +119,40 @@ body {
     .text__container p {
         font-size: 0.75rem;
     }
+
+    .nav__list li:nth-child(1) .nav__link::after {
+        content: "List item";
+    }
+
+    .nav__list li:nth-child(2) .nav__link::after{
+        content: "List item";
+    }
+
+    .nav__list li:nth-child(3) .nav__link::after{
+        content: "List item";
+    }
 }
 
 @media (max-width: 480px) {
-       .text__container h1 {
-        font-size: 1.5rem;
+       .nav__list {
+        display: none;
+       }
+
+       .logo__header img {
+        max-width: 60px;
        }
 
        .text__container p {
         font-size: 0.75rem;
        }
 
+       .text__container h1 {
+        font-size: 1.5rem;
+       }
+
        .image__container img {
         max-width: 100%;
        }
+
+       
 }
