@@ -81,12 +81,31 @@ body {
     }
 
     .text__container p {
-        font-size: 0.87rem;
+        font-size: 0.875rem;
+    }
+
+    .image__container img {
+        max-width: 90%;
     }
 }
 
 @media (max-width: 768px) {
-    
+    .header__container {
+        flex-direction: row;
+        padding: 10px
+    }
+
+    .logo__header img {
+        max-width: 60px;
+    }
+
+    .text__container h1 {
+        font-size: 1.75rem;
+    }
+
+    .text__container p {
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width: 480px) {
