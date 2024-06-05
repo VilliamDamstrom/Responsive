@@ -41,12 +41,22 @@ body {
 
 
 .text__container {
-    display: flex;
-    width: 450px;
-    height: 50px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+   
+}
+
+.text__container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.text__container p {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .image__container {
