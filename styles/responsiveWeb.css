@@ -14,11 +14,10 @@ body {
 
 .header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     width: 100%;
-
 }
 
 .logo__header img {
@@ -37,8 +36,6 @@ body {
     text-decoration: none;
     color: white;
 }
-
-
 
 .text__container {
     text-align: center;
@@ -60,28 +57,38 @@ body {
 }
 
 .image__container {
-    width: 870px;
-    height: 350px;
-    
-}
-
-h1 {
-    font-family: "Poppins", sans-serif;
-    color: white;
-    font-size: 50px;
-    
-}
-
-p {
-    font-family: "Source Code Pro", monospace;
-    color: white;
-}
-
-.nav__list {
     display: flex;
-    gap: 20px;
-    font-family: "Source Code Pro", monospace;
-    text-decoration: none;
-    font-weight: bolder;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image__container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .header__container {
+        padding: 10px 20px;
+    }
+
+    .logo__header img {
+        max-width: 80px;
+    }
+
+    .text__container h1 {
+        font-size: 2rem;
+    }
+
+    .text__container p {
+        font-size: 0.87rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
     
 }
